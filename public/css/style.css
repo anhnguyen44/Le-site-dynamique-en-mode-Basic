@@ -1,0 +1,193 @@
+body{
+    font-family: arial;
+    font-size: 16px;
+    line-height: 23px;
+    color: black;
+}
+
+body#page_login{
+    background: #70adf9;
+}
+
+#wrapper{
+    width: 960px;
+    margin: 0px auto;
+}
+
+#header{
+    position: relative;
+}
+
+ul#main-menu{
+    background: #6988fd;
+    text-align: center;
+    width: 100%;
+    margin: 0px auto;
+}
+
+/*Multi template*/
+.mod-home{
+    background: black !important;
+}
+#main-menu.mod-new{
+    background: orange;
+}
+.mod-product{
+    background: yellowgreen !important;
+}
+
+ul#main-menu li{
+    display: inline-block;
+}
+
+ul#main-menu li>a{
+    display: block;
+    padding: 20px;
+    color: #fff;
+}
+
+#content{
+    min-height: 600px;
+    background: #f9f9f9;
+    /*    text-align: center;*/
+    padding-top: 20px;
+}
+
+#footer{
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    background: #6988fd;
+}
+
+.post{
+    margin: 39px 0px;
+
+}
+
+.thumb_img{
+    width: 350px;
+    height: 236px;
+    overflow: hidden;
+    display: block;
+    float: left;
+}
+
+img{
+    width: 100%;
+    /*100% đây là 100% của thằng kích thước bao mình*/
+    height: auto;
+}
+
+.thumb_img_right{
+    width: 486px;
+    float: left;
+    margin-left: 33px;
+    text-align: justify;
+}
+
+.title_news{
+    display: block;
+    padding-bottom: 20px;   
+}
+
+.post_pro{
+    width: 300px;
+    float: left;
+    margin: 25px 10px;
+}
+
+.thumb_img_pro{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    display: block;
+}
+
+.thumb_img_pro img{
+    width: 100%;
+    height: auto;
+}
+
+.thumb_img_pro_bottom{
+    margin-top: 28px;
+    text-align: justify;
+}
+
+.name_pro{
+    display: block;
+    padding-bottom: 10px;
+}
+
+#wp_login_form{
+    width: 376px;
+    background: #fff;
+    margin: 176px auto;
+    border: 1px solid #dadada;
+    border-radius: 3px;
+    padding: 20px;
+    text-align: center;
+}
+
+#title_form_login{
+    font-size: 24px;
+    color: #b9adad;
+    font-weight: 500;
+    font-family: cursive;
+    margin-bottom: 30px;
+}
+
+input#username, input#password{
+    display: block;
+    width: 100%;
+    margin: 10px 0px;
+    background: #f5f5f5;
+    border: none;
+    padding: 17px;
+    font-size: 16px;
+}
+
+input#btn_login{
+    width: 100%;
+    margin: 20px 0px;
+    padding: 10px;
+    display: block;
+    background: #70adf9;
+    color: #fff;
+    font-size: 17px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+div.remember_me{
+    width: 110px;
+    font-size: 13px;
+    color: #9a9ae2;
+}
+
+a#lost_pass{
+    font-size: 13px;
+    text-decoration: underline;
+    color: #9a9ae2;    
+}
+
+a#logo{
+    display: block;
+    color: #a0a0a0;
+    font-size: 28px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+#logout{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+#user_logout{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
